@@ -6,7 +6,7 @@ let receiving = false;
 
 function setup() {
   console.log(config.apiKey)
-  if(config.apiKey){
+  if(condfig && config.apiKey){
     apiKey = config.apiKey
   } else {
     apiKey = prompt("API 키를 입력해주세요.")
